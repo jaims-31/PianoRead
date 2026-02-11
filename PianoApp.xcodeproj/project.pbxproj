@@ -6,13 +6,38 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		86B85A2B2F2BA8FC007EF5A9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 86B85A2A2F2BA8FC007EF5A9 /* FirebaseAnalytics */; };
+		86B85A2D2F2BA8FC007EF5A9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 86B85A2C2F2BA8FC007EF5A9 /* FirebaseAuth */; };
+		86B85A2F2F2BA8FC007EF5A9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 86B85A2E2F2BA8FC007EF5A9 /* FirebaseFirestore */; };
+		86B85A4C2F302C7C007EF5A9 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 86B85A4B2F302C7C007EF5A9 /* GoogleSignIn */; };
+		86B85A4E2F302C7C007EF5A9 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 86B85A4D2F302C7C007EF5A9 /* GoogleSignInSwift */; };
+		86B85A512F30C92E007EF5A9 /* FacebookAEM in Frameworks */ = {isa = PBXBuildFile; productRef = 86B85A502F30C92E007EF5A9 /* FacebookAEM */; };
+		86B85A532F30C92E007EF5A9 /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = 86B85A522F30C92E007EF5A9 /* FacebookBasics */; };
+		86B85A552F30C92E007EF5A9 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 86B85A542F30C92E007EF5A9 /* FacebookCore */; };
+		86B85A592F30C92E007EF5A9 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 86B85A582F30C92E007EF5A9 /* FacebookLogin */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		86B85A192F2BA268007EF5A9 /* PianoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		86B85A352F2FE68B007EF5A9 /* Exceptions for "PianoApp" folder in "PianoApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 86B85A182F2BA268007EF5A9 /* PianoApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		86B85A1B2F2BA268007EF5A9 /* PianoApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				86B85A352F2FE68B007EF5A9 /* Exceptions for "PianoApp" folder in "PianoApp" target */,
+			);
 			path = PianoApp;
 			sourceTree = "<group>";
 		};
@@ -23,6 +48,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B85A592F30C92E007EF5A9 /* FacebookLogin in Frameworks */,
+				86B85A532F30C92E007EF5A9 /* FacebookBasics in Frameworks */,
+				86B85A512F30C92E007EF5A9 /* FacebookAEM in Frameworks */,
+				86B85A4E2F302C7C007EF5A9 /* GoogleSignInSwift in Frameworks */,
+				86B85A2B2F2BA8FC007EF5A9 /* FirebaseAnalytics in Frameworks */,
+				86B85A4C2F302C7C007EF5A9 /* GoogleSignIn in Frameworks */,
+				86B85A2D2F2BA8FC007EF5A9 /* FirebaseAuth in Frameworks */,
+				86B85A2F2F2BA8FC007EF5A9 /* FirebaseFirestore in Frameworks */,
+				86B85A552F30C92E007EF5A9 /* FacebookCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +99,15 @@
 			);
 			name = PianoApp;
 			packageProductDependencies = (
+				86B85A2A2F2BA8FC007EF5A9 /* FirebaseAnalytics */,
+				86B85A2C2F2BA8FC007EF5A9 /* FirebaseAuth */,
+				86B85A2E2F2BA8FC007EF5A9 /* FirebaseFirestore */,
+				86B85A4B2F302C7C007EF5A9 /* GoogleSignIn */,
+				86B85A4D2F302C7C007EF5A9 /* GoogleSignInSwift */,
+				86B85A502F30C92E007EF5A9 /* FacebookAEM */,
+				86B85A522F30C92E007EF5A9 /* FacebookBasics */,
+				86B85A542F30C92E007EF5A9 /* FacebookCore */,
+				86B85A582F30C92E007EF5A9 /* FacebookLogin */,
 			);
 			productName = PianoApp;
 			productReference = 86B85A192F2BA268007EF5A9 /* PianoApp.app */;
@@ -94,6 +137,11 @@
 			);
 			mainGroup = 86B85A102F2BA268007EF5A9;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				86B85A292F2BA8FC007EF5A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				86B85A4A2F302C7C007EF5A9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				86B85A4F2F30C92E007EF5A9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 86B85A1A2F2BA268007EF5A9 /* Products */;
 			projectDirPath = "";
@@ -253,6 +301,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PianoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -263,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Mon.PianoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaims.PianoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -284,6 +333,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PianoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,7 +344,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Mon.PianoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaims.PianoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -328,6 +378,81 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86B85A292F2BA8FC007EF5A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.8.0;
+			};
+		};
+		86B85A4A2F302C7C007EF5A9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+		86B85A4F2F30C92E007EF5A9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86B85A2A2F2BA8FC007EF5A9 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86B85A292F2BA8FC007EF5A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		86B85A2C2F2BA8FC007EF5A9 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86B85A292F2BA8FC007EF5A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		86B85A2E2F2BA8FC007EF5A9 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86B85A292F2BA8FC007EF5A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		86B85A4B2F302C7C007EF5A9 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86B85A4A2F302C7C007EF5A9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		86B85A4D2F302C7C007EF5A9 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86B85A4A2F302C7C007EF5A9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		86B85A502F30C92E007EF5A9 /* FacebookAEM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86B85A4F2F30C92E007EF5A9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookAEM;
+		};
+		86B85A522F30C92E007EF5A9 /* FacebookBasics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86B85A4F2F30C92E007EF5A9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookBasics;
+		};
+		86B85A542F30C92E007EF5A9 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86B85A4F2F30C92E007EF5A9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		86B85A582F30C92E007EF5A9 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86B85A4F2F30C92E007EF5A9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 86B85A112F2BA268007EF5A9 /* Project object */;
 }

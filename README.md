@@ -14,7 +14,7 @@ Une application iOS moderne conçue avec **SwiftUI** et **Firebase** pour appren
 * **Quiz Interactif** : Apprenez les notes en Clé de Sol et Clé de Fa avec différents niveaux de difficulté.
 * **Système de Score** : Suivez votre progression en temps réel.
 * **Authentification** : Connexion sécurisée via Google, Facebook ou Email (Firebase).
-* **Design Moderne** : Interface épurée avec support du Dark Mode.
+
 
 ## 🛠 Stack Technique
 * **Language** : Swift (SwiftUI)
